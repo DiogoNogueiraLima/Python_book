@@ -1,0 +1,10 @@
+Um namespace é o dicionario que fica armazenado num dicionario de escopos onde a chave é o nome/variavel e o valor é o objeto
+ex: a = 20
+
+namespace_global -> {a = 20}
+
+1. existem local scope, que estão no dicionario das funções ou metodos, que funcionam apenas dentro daquela função.
+2. existem global scope, que estão no dicionario do codigo, ou seja, funcionam para todo lugar dentro do arquivo.
+3. existem Biuld-ins scope, que estão no dicionario do python, ou seja, palavras reservadas que funcionam em todo e qlqr codigo
+
+Ao voce chamar essa essa variavel, esse será o caminho que o codigo procurará pela variavel
