@@ -31,7 +31,7 @@ pass
 # outra tentativa
 class MinhaClasse:
     def __init__(self, valor):
-        self.valor = valor
+        self._valor = valor
 
     def __radd__(self, outro):
         # Método chamado quando outra instância tenta adicionar à sua instância
