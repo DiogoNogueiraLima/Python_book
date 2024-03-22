@@ -1,0 +1,14 @@
+Por padrão, instâncias de classes definidas pelo usuário são consideradas verdadeiras, a menos que bool ou len seja implementado. Basicamente, bool(x) chama x.bool() e usa o resultado. Se bool não estiver implementado, o Python tenta invocar x.len(), e se isso retornar zero, bool retorna False. Caso contrário, bool retorna True.
+
+O que significa uma classe ABC? Abstract Base Classes
+
+
+Instanciar uma classe significa criar um objeto específico (uma instância) dessa classe.
+
+Como que seria possivel retornar uma ordem diferente da ordem de inserção no python 3.6 ao interar(percorrer) um dicionario?
+
+Ele da a lista de metodos especias, eu preciso estudar a tabela ou só passo uma visão por cima sem pesquisar nada (pag(46))?
+
+Não entendi a questão do add e radd (Reversed arithmetic)
+
+"O Python herdou do ABC o tratamento uniforme de sequências. Strings, listas, sequências de bytes, arrays, elementos XML e resultados de banco de dados compartilham um conjunto rico de operações comuns, incluindo iteração, fatiamento, ordenação e concatenação." Como é em outras linguagens?
