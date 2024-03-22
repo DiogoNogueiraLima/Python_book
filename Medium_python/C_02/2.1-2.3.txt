@@ -1,0 +1,6 @@
+Uma sequência de contêiner mantém referências aos objetos que contém, os quais podem ser de qualquer tipo, enquanto uma sequência plana armazena o valor de seu conteúdo em seu próprio espaço de memória, não como objetos Python distintos.
+Ou seja, o espaço de memoria que seria para um objeto de uma lista é usado para dar o enderenço de memoria do valor real do item da lista.
+
+Tuplas comuns são considerados sequencias planas, mas se ouver uma tupla dentro de uma tupla, ela se torna um sequencia de contêiner
+
+duvida final pagina 53, procurei na internet mas nao sei que headers sao esses
