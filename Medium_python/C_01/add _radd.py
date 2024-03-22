@@ -8,12 +8,11 @@ class Diogo:
     def __init__(self, numero):
         self.number = numero
 
-    def __add__(self, other):
-            return self.__radd__(other)
+    def __add__(self, other): 
+        return NotImplemented
 
     def __radd__(self, other):
         print("Chamou o método __radd__")
-        return NotImplemented
         if isinstance(other, int):
             return self.number + other
         elif isinstance(other, Diogo):
