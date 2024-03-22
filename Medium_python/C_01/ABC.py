@@ -18,11 +18,11 @@ class Circle(Shape):
 # Criando uma classe de retângulo que herda da classe abstrata Shape
 class Rectangle(Shape):
     def __init__(self, width, height):
-        self.width = width
-        self.height = height
+        self._width = width
+        self._height = height
 
     def area(self):
-        return self.width * self.height
+        return self._width * self._height
 
 # Agora podemos criar instâncias de círculo e retângulo
 circle = Circle(radius=5)
