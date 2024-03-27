@@ -1,6 +1,6 @@
-Uma sequência de contêiner mantém referências aos objetos que contém, os quais podem ser de qualquer tipo, enquanto uma sequência plana armazena o valor de seu conteúdo em seu próprio espaço de memória, não como objetos Python distintos.
-Ou seja, o espaço de memoria que seria para um objeto de uma lista é usado para dar o enderenço de memoria do valor real do item da lista.
+A container sequence maintains references to the objects it contains, which can be of any type, while a flat sequence stores the value of its content in its own memory space, not as distinct Python objects.
+In other words, the memory space that would be for an object in a list is used to store the actual memory address of the list item's value.
 
-Tuplas comuns são considerados sequencias planas, mas se ouver uma tupla dentro de uma tupla, ela se torna um sequencia de contêiner
+Common tuples are considered flat sequences, but if there's a tuple within a tuple, it becomes a container sequence.
 
-duvida final pagina 53, procurei na internet mas nao sei que headers sao esses
+Regarding your final question on page 53, I searched the internet, but I'm not sure what headers those are.

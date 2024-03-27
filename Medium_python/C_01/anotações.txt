@@ -1,14 +1,13 @@
-Por padrão, instâncias de classes definidas pelo usuário são consideradas verdadeiras, a menos que bool ou len seja implementado. Basicamente, bool(x) chama x.bool() e usa o resultado. Se bool não estiver implementado, o Python tenta invocar x.len(), e se isso retornar zero, bool retorna False. Caso contrário, bool retorna True.
+By default, instances of user-defined classes are considered true, unless `bool` or `len` is implemented. Essentially, `bool(x)` calls `x.bool()` and uses the result. If `bool` is not implemented, Python tries to invoke `x.len()`, and if that returns zero, `bool` returns False. Otherwise, `bool` returns True.
 
-O que significa uma classe ABC? Abstract Base Classes
+What does ABC mean? Abstract Base Classes.
 
+To instantiate a class means to create a specific object (an instance) of that class.
 
-Instanciar uma classe significa criar um objeto específico (uma instância) dessa classe.
+How is it possible to return a different order from the insertion order in Python 3.6 when iterating over a dictionary?
 
-Como que seria possivel retornar uma ordem diferente da ordem de inserção no python 3.6 ao interar(percorrer) um dicionario?
+He gives the list of special methods, do I need to study the table or just have a brief overview without researching anything (page 46)?
 
-Ele da a lista de metodos especias, eu preciso estudar a tabela ou só passo uma visão por cima sem pesquisar nada (pag(46))?
+I didn't understand the question about `add` and `radd` (Reversed arithmetic).
 
-Não entendi a questão do add e radd (Reversed arithmetic)
-
-"O Python herdou do ABC o tratamento uniforme de sequências. Strings, listas, sequências de bytes, arrays, elementos XML e resultados de banco de dados compartilham um conjunto rico de operações comuns, incluindo iteração, fatiamento, ordenação e concatenação." Como é em outras linguagens?
+"Python inherited from ABC the uniform treatment of sequences. Strings, lists, byte sequences, arrays, XML elements, and database results share a rich set of common operations, including iteration, slicing, sorting, and concatenation." How is it in other languages?
